@@ -31,6 +31,7 @@ public class datosLista extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(datosLista.this, MainActivity.class);
+                finish();
                 startActivity(intent);
             }
         });

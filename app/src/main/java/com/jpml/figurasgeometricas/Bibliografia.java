@@ -30,6 +30,7 @@ public class Bibliografia extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Bibliografia.this, MainActivity.class);
+                finish();
                 startActivity(intent);
             }
         });
