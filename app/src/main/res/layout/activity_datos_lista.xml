@@ -11,9 +11,56 @@
         android:id="@+id/boton_regresarLista"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#2196F3"
         android:text="REGRESAR"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.26"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.568" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="183dp"
+        android:layout_height="79dp"
+        android:text="Consumo del JSON generado en Node.js"
+        android:textAlignment="center"
+        android:textColor="#0E0E0E"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.084" />
+
+    <TextView
+        android:id="@+id/txtRespuestaLista"
+        android:layout_width="271dp"
+        android:layout_height="108dp"
+        android:textAlignment="center"
+        android:textColor="#101010"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.303" />
+
+    <Button
+        android:id="@+id/button_consultarLista"
+        android:layout_width="140dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#2196F3"
+        android:text="CONSULTAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.763"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.568" />
 </androidx.constraintlayout.widget.ConstraintLayout>
